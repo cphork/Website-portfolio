@@ -19,6 +19,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
         const projects = data.feed.entry.map((item) => {
             return {
                 description: item.gsx$description.$t,
+                title: item.gsx$title.$t,
                 gitURL: item.gsx$giturl.$t,
                 image: item.gsx$image.$t,
                 liveURL: item.gsx$liveurl.$t,
@@ -43,14 +44,12 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
 
 
             const $portCard = $(`
-            <div class='flex flex-col justify-between mb-48'>
-            <div class="card ml-8 mt-8" style="width: 22rem; height: 16rem;">
+            <div class='mb-24'>
+            <div class="card ml-8 mt-8" style="width: 22rem;">
             <img class='border border-gray-600' src="${project.image}" class="card-img-top" alt="project.image">
             <div class="card-body border border-gray-600">
-                <h5 class="card-title text-blue">${project.description}</h5>
-                <p class="card-text text-blue">Some quick example text to build on the card title and make up the bulk of
-                    the card's
-                    content.</p>
+                <h3 class="card-title text-blue-500">${project.title}</h3>
+                <h5 class="card-title text-blue-500">${project.description}</h5>
                 <div class='mt-8 ml-20'>
                     <a href="${project.liveURL}" class="btn btn-primary">Live URL</a>
                     <a href="${project.gitURL}" class="btn btn-primary">Git URL</a>
