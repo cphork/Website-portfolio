@@ -39,5 +39,10 @@ font-family: Permanent Marker;
     50% { border-color: #3FEFE5; }
   }
   
-
+.card-title {
+  font-family: Permanent Marker;
+}
+.card-description {
+  font-family: monospace;
+}
 

@@ -49,7 +49,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
             <img class='border border-gray-600' src="${project.image}" class="card-img-top" alt="project.image">
             <div class="card-body border border-gray-600">
                 <h3 class="card-title text-blue-500">${project.title}</h3>
-                <h5 class="card-title text-blue-500">${project.description}</h5>
+                <h5 class="card-description text-blue-500">${project.description}</h5>
                 <div class='mt-8 ml-20'>
                     <a href="${project.liveURL}" class="btn btn-primary">Live URL</a>
                     <a href="${project.gitURL}" class="btn btn-primary">Git URL</a>
