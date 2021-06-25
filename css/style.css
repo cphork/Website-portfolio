@@ -44,6 +44,14 @@ font-family: Zen Dots;
   width:1820px;
 }
 
+.superwoman {
+  height: 325px;
+}
+
+.women-code {
+  height: 275px;
+}
+
 
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
