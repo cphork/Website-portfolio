@@ -14,7 +14,22 @@ font-family: Permanent Marker;
 
 .media-container {
     color: #3FEFE5;
+  
 }
+
+.initial {
+  font-family: Zen Dots;
+}
+
+.location-lat-long {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.full-name {
+font-family: Zen Dots;
+}
+
 
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -36,7 +51,7 @@ font-family: Permanent Marker;
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #3FEFE5; }
+    100% { border-color: #3FEFE5; }
   }
   
 .card-title {

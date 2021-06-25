@@ -73,17 +73,17 @@
 
         <div class='flex justify-between mt-3'>
             <!-- NAME/LOGO -->
-            <h1 class="initial text-2xl text-white ml-2">CP</h1>
-            <h1 class="full-name text-white hidden">Christina Phork</h1>
+            <h1 class="initial text-2xl text-white ml-2 text-green-200 lg:hidden">CP</h1>
+            <h1 class="full-name text-white hidden lg:inline-block lg:text-2xl ml-4">Christina Phork</h1>
 
 
             <!-- LONGITUDE & LATITUDE -->
-            <div class="location">
+            <div class="location mt-2">
                 <p class="location-lat-long text-white">30.4647&deg;N, 97.7471&deg;W</p>
             </div>
 
             <!-- HAMBURGER MENU -->
-            <div class="dropdown text-white mr-2">
+            <div class="dropdown text-white mr-2 lg:hidden">
                 <a class="fas fa-bars" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                     aria-expanded="false">
                 </a>
@@ -95,82 +95,71 @@
                     <li><a class="dropdown-item" href="#">Contact</a></li>
                 </ul>
             </div>
-        </div>
 
-        <!-- EXTENDED NAVBAR -->
 
-        <div class='hidden'>
+            <!-- EXTENDED NAVBAR -->
 
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
+            <div class='hidden lg:block'>
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
 
         <!-- NAV SEPERATION BORDER -->
-        <div class='border border-gray-600 mt-3'></div>
+        <div class=' border border-gray-600 mt-1'></div>
 
 
     </header>
 
 
     <!-- LANDING -->
-    <section class="landing mt-8">
-        <p class="hello text-yellow-400 text-2xl text-center">&lt;h1&gt;HELLO WORLD&lt;/h1&gt;</p>
-        <p class="moon text-center">Aquarius Moon: Makes me a problem solver...</p>
+    <section class="landing mt-16">
+        <p class="hello text-yellow-400 text-2xl text-center lg:text-5xl">&lt;h1&gt;HELLO WORLD&lt;/h1&gt;</p>
+        <p class="moon text-center mb-16 lg:text-3xl">Aquarius Moon: Makes me a problem solver...</p>
     </section>
 
-
-    <!-- CARD -->
-
-    <!-- <div class="card ml-8 mt-8" style="width: 22rem; height: 16rem;">
-        <img class='border border-gray-600' src="..." class="card-img-top" alt="...">
-        <div class="card-body border border-gray-600">
-            <h5 class="card-title text-white">Card title</h5>
-            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
-                the card's
-                content.</p>
-            <div class='mt-8 ml-20'>
-                <a href="#" class="btn btn-primary">Live URL</a>
-                <a href="#" class="btn btn-primary">Git URL</a>
-            </div>
-        </div>
-    </div> -->
+    <!-- NAV SEPERATION BORDER -->
+    <div class='border border-gray-600 mt-1'></div>
 
 
     <!-- CIRCLES WITH LINKS... -->
-    <div class='flex justify-evenly'>
+    <!-- <div class='flex justify-evenly mt-24 mb-16'>
+        <div class="bg-green-200 rounded-full h-20 w-20 flex items-center justify-center text-white"><a
+                href='https://workout-app-2.vercel.app/'>IMAGE</a></div>
         <div class="bg-green-200 rounded-full h-20 w-20 flex items-center justify-center text-white">IMAGE</div>
         <div class="bg-green-200 rounded-full h-20 w-20 flex items-center justify-center text-white">IMAGE</div>
         <div class="bg-green-200 rounded-full h-20 w-20 flex items-center justify-center text-white">IMAGE</div>
-        <div class="bg-green-200 rounded-full h-20 w-20 flex items-center justify-center text-white">IMAGE</div>
-    </div>
+    </div> -->
 
 
 
     <!-- CARDS BUILT IN APP.JS -->
-    <section id="portfolio">
+    <section id="portfolio" class='lg:flex justify-evenly'>
     </section>
 
 
@@ -202,7 +191,7 @@
     <footer>
 
         <!-- SOCIAL MEDIA ICONS -->
-        <div class="media-container flex justify-evenly mt-8">
+        <div class="media-container flex justify-evenly mt-16 mb-4 text-3xl">
             <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-square"></a>
 
             <a href="https://www.linkedin.com/jobs/" target="_blank" class="fab fa-linkedin"></a>
