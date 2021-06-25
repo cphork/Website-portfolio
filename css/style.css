@@ -34,6 +34,10 @@ font-family: Zen Dots;
   font-family: monospace;
 }
 
+.container-blocks {
+  font-family: monospace;
+}
+
 
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
