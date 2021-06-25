@@ -30,6 +30,10 @@ font-family: Permanent Marker;
 font-family: Zen Dots;
 }
 
+.port-sec {
+  font-family: monospace;
+}
+
 
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */

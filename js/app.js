@@ -46,7 +46,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
             const $portCard = $(`
             <div class='mb-24'>
             <div class="card ml-8 mt-8" style="width: 22rem;">
-            <img class='border border-gray-600' src="${project.image}" class="card-img-top" alt="project.image">
+            <img class='border border-gray-600 ' src="${project.image}" class="card-img-top" alt="project.image">
             <div class="card-body border border-gray-600">
                 <h3 class="card-title text-blue-500">${project.title}</h3>
                 <h5 class="card-description text-blue-500">${project.description}</h5>

@@ -157,36 +157,61 @@
     </div> -->
 
 
+    <h3 class='port-sec text-center text-white text-3xl mt-8 lg:block hidden'>What I've been up too...</h3>
 
     <!-- CARDS BUILT IN APP.JS -->
     <section id="portfolio" class='lg:flex justify-evenly'>
     </section>
 
 
+    <!-- STUFF IN BLOCKS-->
+    <div class='ml-24 mt-48'>
+        <span class='hidden lg:inline-block text-white border-solid border-4 border-red-500 bg-red-500 ml-8'>HTML</span>
+        <span class='hidden lg:inline-block text-white border-solid border-4 border-blue-500 bg-blue-500'>CSS</span>
+        <span
+            class='hidden lg:inline-block text-white border-solid border-4 border-green-500 bg-green-500'>JavaScript</span>
+    </div>
+
+    <div class=' ml-24 mt-1'>
+        <span
+            class='hidden lg:inline-block text-white border-solid border-4 border-yellow-500 bg-yellow-500 ml-8'>React</span>
+        <span
+            class='hidden lg:inline-block text-white border-solid border-4 border-indigo-500 bg-indigo-500'>Express</span>
+        <span
+            class='hidden lg:inline-block text-white border-solid border-4 border-green-200 bg-green-200'>Node.js</span>
+    </div>
 
 
     <!-- CONTACT FORM -->
-    <div class="form-bottom mt-56 ml-8">
+    <div class="form-bottom mt-36 ml-8 lg:flex justify-end lg:mr-24">
         <form action="https://formspree.io/f/xwkappor" method="POST">
             <div class='flex flex-col'>
                 <h3 class='text-center text-green-200 text-xl mb-8'>Send me a message..
                 </h3>
                 <label class='text-green-200'>
                     Your email:
-                    <input class='ml-8 mb-8' type="email" name="_replyto">
+                    <input class='ml-8 mb-8 lg:text-2xl' type="email" name="_replyto">
                 </label>
                 <label class='text-green-200'>
                     Your message:
-                    <textarea class='ml-1' name="message"></textarea>
+                    <textarea class='ml-1 lg:text-6xl' name="message"></textarea>
                 </label>
 
                 <!-- your other form fields go here -->
-
-                <button class='text-green-200 font-bold bg-gray-500 rounded w-20 ml-40 mt-4' type="submit"
-                    target="_blank">Send</button>
+                <div class='button lg:flex justify-end'>
+                    <button class='text-green-200 font-bold bg-gray-500 rounded w-20 ml-40 mt-4' type="submit"
+                        target="_blank">Send</button>
+                </div>
             </div>
         </form>
     </div>
+
+
+
+
+
+
+
 
     <footer>
 
