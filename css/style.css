@@ -56,6 +56,17 @@ font-family: Zen Dots;
   font-family: Zen Dots;
 }
 
+.pdf-icon {
+  height: 25px;
+}
+
+.resume-text {
+  font-family: monospace;
+}
+
+.pdf-text {
+  font-family: monospace;
+}
 
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
