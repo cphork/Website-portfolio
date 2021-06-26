@@ -74,13 +74,14 @@
         <div class='flex justify-between mt-3'>
             <!-- NAME/LOGO -->
             <h1 class="initial text-2xl text-white ml-2 text-green-200 lg:hidden"><a href='index.html'>CP</a></h1>
-            <h1 class="full-name text-white hidden lg:inline-block lg:text-2xl ml-4"><a href='index.html'>Christina
+            <h1 class="full-name text-white hidden lg:inline-block lg:text-2xl ml-4 lg:mt-4"><a
+                    href='index.html'>Christina
                     Phork</a></h1>
 
 
             <!-- LONGITUDE & LATITUDE -->
             <div class="location mt-2">
-                <p class="location-lat-long text-white">30.4647&deg;N, 97.7471&deg;W</p>
+                <p class="location-lat-long text-white lg:mt-8">30.4647&deg;N, 97.7471&deg;W</p>
             </div>
 
             <!-- HAMBURGER MENU -->
@@ -90,10 +91,10 @@
                 </a>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="about.html">About Me</a></li>
-                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                    <li><a class="dropdown-item" href="resume.html">Resume</a></li>
-                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                    <li><a class="dropdown-item" href="about.html" target="_blank">About Me</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Portfolio</a></li>
+                    <li><a class="dropdown-item" href="resume.html" target="_blank">Resume</a></li>
+                    <li><a class="dropdown-item" href="contact.html" target="_blank">Contact</a></li>
                 </ul>
             </div>
 
@@ -113,17 +114,18 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="about.html">About
+                                    <a class="nav-link active text-white" aria-current="page" href="about.html"
+                                        target="_blank">About
                                         Me</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Portfolio</a>
+                                    <a class="nav-link text-white" href="#" target="_blank">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="resume.html">Resume</a>
+                                    <a class="nav-link text-white" href="resume.html" target="_blank">Resume</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                                    <a class="nav-link text-white" href="contact.html" target="_blank">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +142,45 @@
 
 
     <!-- CONTACT PAGE -->
-    <h1 class='text-white text-2xl text-center mt-8'>CONTACT PAGE</h1>
+    <h1 class='contact-text text-white text-2xl text-center mt-8'>Get In Touch</h1>
+
+
+
+    <!-- CONTACT FORM -->
+    <div class="form-bottom mt-38 ml-8 lg:flex justify-center lg:mr-24 lg:mt-24 lg:mb-48">
+        <form action="https://formspree.io/f/xwkappor" method="POST">
+            <div class='flex flex-col'>
+                <h3 class='text-green-200 text-xl mb-8 mt-16'>Send me a message..
+                </h3>
+                <label class='text-green-200'>
+                    Your email:
+                    <input class='mr-12 ml-8 lg:ml-8 mb-8 lg:text-2xl' type="email" name="_replyto">
+                </label>
+                <label class='text-green-200'>
+                    Your message:
+                    <textarea class='mr-12 ml-1 lg:text-6xl' name="message"></textarea>
+                </label>
+
+                <!-- your other form fields go here -->
+                <div class='button lg:flex justify-center'>
+                    <button class='text-green-200 font-bold bg-gray-500 rounded lg:w-20 ml-36 mt-4' type="submit"
+                        target="_blank">Send</button>
+                </div>
+                <p class='contact-links text-white lg:text-2xl mt-16'>
+                    <a href='https://www.linkedin.com/in/christinaphork/'
+                        target="_blank">linkedin.com/in/christinaphork</a>
+                    <a href='https://mail.google.com/mail/u/0/#inbox' target="_blank">|
+                        christina.phork@gmail.com</a> |
+                    919.327.7974
+                </p>
+            </div>
+        </form>
+    </div>
+    </div>
+
+
+
+
 
 
 

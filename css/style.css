@@ -68,6 +68,27 @@ font-family: Zen Dots;
   font-family: monospace;
 }
 
+.contact-text {
+  font-family: monospace;
+}
+
+.contact-links {
+  font-family: monospace;
+}
+
+.back-up-btn {
+  font-family: monospace;
+}
+
+.about-text{
+  font-family: monospace;
+}
+
+.about-me {
+  font-family: Zen Dots;
+  color: #3FEFE5;
+}
+
 .landing .hello {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid  #3FEFE5; /* The typwriter cursor */
@@ -88,7 +109,7 @@ font-family: Zen Dots;
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    100% { border-color: #3FEFE5; }
+    75% { border-color: #3FEFE5; }
   }
   
 .card-title {
