@@ -45,13 +45,13 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
 
             const $portCard = $(`
             <div class='mb-24'>
-            <div class="card ml-8 mt-8" style="width: 22rem;">
+            <div class="card ml-2 mt-8 w-74 lg:w-56">
             <img class='border border-gray-600 ' src="${project.image}" class="card-img-top" alt="project.image">
             <div class="card-body border border-gray-600">
                 <h3 class="card-title text-blue-500">${project.title}</h3>
                 <h5 class="card-description text-blue-500">${project.description}</h5>
-                <div class='mt-8 ml-20'>
-                    <a href="${project.liveURL}" class="btn btn-primary">Live URL</a>
+                <div class='mt-8 ml-20 lg:flex flex-col>
+                    <a href="${project.liveURL}" class="btn btn-primary lg:mb-2">Live URL</a>
                     <a href="${project.gitURL}" class="btn btn-primary">Git URL</a>
                 </div>
             </div>

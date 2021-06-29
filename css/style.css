@@ -41,15 +41,15 @@ font-family: Zen Dots;
 .block-color {
   background: #3FEFE5;
   height:450px;
-  width:1920px;
+  width:1024px;
 }
 
 .superwoman {
-  height: 325px;
+  height: 225px;
 }
 
 .women-code {
-  height: 275px;
+  height: 175px;
 }
 
 .hospitality-text {
@@ -87,6 +87,20 @@ font-family: Zen Dots;
 .about-me {
   font-family: Zen Dots;
   color: #3FEFE5;
+}
+
+.nav-link {
+  font-family: monospace;
+}
+
+.lang-blocks {
+  position: relative;
+  animation: blocks 3s;
+}
+
+@keyframes blocks {
+  from { width: 10% }
+  to { width: 100% }
 }
 
 .landing .hello {
