@@ -50,9 +50,9 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
             <div class="card-body border border-gray-600">
                 <h3 class="card-title text-blue-500">${project.title}</h3>
                 <h5 class="card-description text-blue-500">${project.description}</h5>
-                <div class='mt-8 ml-20 lg:flex flex-col>
-                    <a href="${project.liveURL}" class="btn btn-primary lg:mb-2">Live URL</a>
-                    <a href="${project.gitURL}" class="btn btn-primary">Git URL</a>
+                <div class='mt-8 ml-32 lg:flex flex-col'>
+                <a href="${project.liveURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm">Live</a>
+                <a href="${project.gitURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm">Git</a>
                 </div>
             </div>
         </div>

@@ -44,6 +44,17 @@ font-family: Zen Dots;
   width:1024px;
 }
 
+.btn-primary {
+  height:30px;
+  width:60px;
+}
+
+@media screen and (min-width: 1440px) {
+  .block-color {
+    width: 1440px;
+  }
+  }
+
 .superwoman {
   height: 225px;
 }
