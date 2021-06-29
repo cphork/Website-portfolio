@@ -46,7 +46,7 @@ font-family: Zen Dots;
 
 .btn-primary {
   height:30px;
-  width:60px;
+  width:150px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -54,6 +54,13 @@ font-family: Zen Dots;
     width: 1440px;
   }
   }
+
+  @media screen and (min-width: 1024px) {
+    .selfie {
+      height:350px;
+      width: 125px;
+    }
+    }
 
 .superwoman {
   height: 225px;
