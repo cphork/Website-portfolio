@@ -51,8 +51,8 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
                 <h3 class="card-title text-blue-500 text-center">${project.title}</h3>
                 <h5 class="card-description text-blue-500 text-center">${project.description}</h5>
                 <div class='mt-8 ml-32 lg:flex justify-center lg:mr-56'>
-                <a href="${project.liveURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm lg:mr-4">Live</a>
-                <a href="${project.gitURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm lg:mr-16">Git</a>
+                <a href="${project.liveURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm lg:mr-4" target="_blank">Live</a>
+                <a href="${project.gitURL}" class="btn btn-primary bg-green-200 text-black lg:mb-2 lg:text-sm lg:mr-16" target="_blank">Git</a>
                 </div>
             </div>
         </div>
@@ -60,14 +60,6 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1lLER4scBm67_Kh6aY1WIif3ORhnK
             $portfolio.append($portCard)
 
 
-
-            //     const $portCard = $(`
-            //     <div class="card">
-            //     <img class="card-img-top" src="${project.image}" target="_blank alt="project.image">   
-            //     <a href="${project.liveURL}"button type="button" class="btn btn-success btn-sm">More</a>
-            //     </div>
-            // </div>`)
-            //     $portfolio.append($portCard)
 
         })
 
